@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.tabela-container{
+    background-color: silver;
+}
+.menu-container{
+    height:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+form .resultado{
+    width:95%;
+    padding:10px 0;
+    padding-left: -10px;
+    border: silver;
+    background-color:silver;
+    outline: none;
+    text-align: right;
+    font-size: 35px;
+    margin:0 10px;
+}
+.numeros{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button{
+    padding:20px;
+    border:1px solid  silver;
+    outline: none;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(163, 157, 157);
+}
+.corBranco{
+    background-color: white;
+}
+
+.corBlue{
+    background-color: rgb(126, 204, 235);
+}
+.corBlue:hover{
+    background-color: rgb(19, 167, 226);
+}
